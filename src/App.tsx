@@ -1,3 +1,4 @@
+import { Button } from "./components/ButtonCVA";
 import ButtonExample from "./components/ButtonExample";
 import Hero from "./components/Hero";
 
@@ -8,9 +9,10 @@ function App() {
         <Hero />
         <div className="mx-auto">
           <div className="grid place-items-center gap-12 mt-16">
-            <ButtonExample variant="secondary" size="lg">
-              Learn more
-            </ButtonExample>
+            <Button size="xl" intent="secondary">
+              <span>Learn More</span>
+              <span>&rarr;</span>
+            </Button>
           </div>
         </div>
       </div>
